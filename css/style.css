@@ -13,7 +13,7 @@ a {
 }
 
 .header {
-    background-color: #02387D;
+    background-color: #5a322a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,7 @@ a {
 .menu li a {
     display: block;
     padding: 10px;
-    background-color: #02387D;
+    background-color: #5a322a;
 }
 
 .logo{
@@ -50,8 +50,8 @@ a {
 }
 
 .caixa {
-    background-color: #4181D2;
-    color: #fff;
+    background-color: #F9ECE5;
+    color: #5a322a;
     text-align:left;
     padding: 20px;
     font-size: 30px;
@@ -62,7 +62,7 @@ a {
 
 .caixa h1, p {
     margin-left: 200px;
-    color: #fff;
+    color: #5a322a;
 }
 
 .caixa h1 {
@@ -79,39 +79,38 @@ a {
 .botsm {
     margin-left: 200px;
     margin-top: 25px;
-    border: 3px solid #f6ad4c;
+    border: 3px solid #718a9e;
     border-radius: 20px;
     text-align: center;
     font-size: 24px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 300px;
     height: 50px;
-    background-color: #f6ad4c;
+    background-color: #718a9e;
 }
 
 .botsm a {
-    color: #02387D;
+    color: #fff;
 }
 
 .botsm:hover {
-    background-color: #02387D;
-    border: #02387D;
+    background-color: #5a322a;
+    border: #5a322a;
 }
-
-.botsm:hover a {
-    color: #f6ad4c;
-}
-
 
 .banner {
     display: flex;
+}
+
+hr {
+    border: #5a322a 1px solid;
 }
 
 h1 {
     margin-top: 40px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    color: #02387D;
+    color: #5a322a;
 }
 
 .abas {
@@ -134,13 +133,13 @@ h1 {
 }
 
 .aba1 {
-    background-color: #9dc7fd;
-    color: #041935;
+    background-color: #95b8d3;
+    color: #5a322a;
 }
 
 .aba2 {
-    background-color: #ffd296;
-    color: #351e04;
+    background-color: #E4A499;
+    color: #5a322a;
 }
 
 h3 {
@@ -161,24 +160,16 @@ h3 {
     margin-left: 0px;
 }
 
-.aba1 p {
-    color: #041935;
-}
-
-.aba2 p {
-    color: #351e04;
-}
-
 .aba1:hover {
-    background-color: #93c1fd;
+    background-color: #8fb3cf;
 }
 
 .aba2:hover {
-    background-color: #ffcd8b;
+    background-color: #db9e93;
 }
 
 footer {
-    background-color: #02387D;
+    background-color: #5a322a;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -186,8 +177,11 @@ footer {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.p-azul {
-    color: #02387D;
+footer p {
+    color: #fff;
+}
+
+.p-m {
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
@@ -197,13 +191,13 @@ footer {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #f6ad4c;
+    color: #5a322a;
     text-align: center;
     margin-top: 2%;
 }
 
 .caixa h2 {
-    color: #fff;
+    color: #5a322a;
     margin-top: 6%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
@@ -216,47 +210,57 @@ h2 {
 }
 
 .info2 {
-    background-color: #f0f0f0;
+    background-color: #F9ECE5;
     height: 500px;
 }
 
 .menu li:hover a {
-    background-color: #f6ad4c;
-    color: #02387D;
+    background-color: #E4A499;
+    color: #5a322a;
     border-radius: 15px;
   }
 
-.tps-ajuda{
+.tps-ajuda {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
     flex-wrap: wrap;
+    background-color: #95b6cf;
+}
+
+.tps-ajuda2 {
+    margin-top: 0;
+}
+
+.back-ajuda {
+    background-color: #95b6cf ;
+    margin-top: 5%;
 }
 
 .tp-ajuda {
-    border: #e2e2e2 2px solid;
     border-radius: 20px;
     width: 300px;
     height: 350px;
-    background-color: #9dc7fd;
+    background-color: #F9ECE5;
+    margin-top: 10%;
 }
 
 .tp-ajuda h2 {
-    color: #02387D;
+    color: #5a322a;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .tp-ajuda h3 {
-    color: #02387D;
+    color: #5a322a;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 10px;
 }
 
 .tp-ajuda p {
-    color: #02387D;
+    color: #5a322a;
     font-family: Arial, Helvetica, sans-serif;
     width: 90%;
     margin-top: 5%;
