@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background-color: #02387D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title { 
+    text-align: left;
+}
+
+.menu {
+    display: flex;
+    margin-right: 100px;
+}
+
+.menu li {
+    margin-left: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background-color: #02387D;
+}
+
+.logo{
+    width: 320px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #02387D;
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    color: #02387D;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+img {
+    width: 33.333%;
+    height: 650px;
+    margin-top: 20px;
+}
+
+.pessoas {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+p {
+    font-size: 20px;
+    color: #02387D;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.caixa {
+    background-color: #02387D;
+    width: 70%;
+    height: 100px;
+    margin: 100px auto 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+footer {
+    background-color: #02387D;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.menu li:hover a {
+    background-color: #f6ad4c;
+    color: #02387D;
+    border-radius: 15px;
+  }
