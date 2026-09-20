@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F9ECE5;
 }
 
 ul,
@@ -144,10 +145,6 @@ footer p {
     border-radius: 15px;
 }
 
-.body-ss {
-    background-color: #F9ECE5;
-}
-
 .formulario {
     width: 400px;
     margin: 50px auto;
@@ -214,7 +211,6 @@ input, textarea {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 26px;
 }
-
 
 .ul-valores {
     background-color: #718a9e;
